@@ -1,0 +1,83 @@
+body{
+	background-color:#B47EE0
+}
+
+.body{
+	margin-top:5%;
+	margin-bottom: 5%;
+	font-family:'rockwell';
+}
+
+h1{
+	text-align:center;
+	font-size: 50px;
+	font-family:'rockwell';
+	color:#E4F216;
+}
+
+h2, h3{
+	margin-left: 10%;
+	text-align: left;
+	font-family:'rockwell';
+}
+
+p{
+	text-align: justify-all;
+}
+
+a{
+	padding: 8px;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover {
+	text-decoration: underline; 
+	cursor: pointer;
+}
+
+a:active {
+	color: blue;
+	text-decoration: underline; 
+}
+
+.botaof{
+	text-align: center;
+	margin: 5px 10px 0px 10px;
+	padding: 0px 5px 5px 5px;
+}
+
+.botoes{
+    display: flex;
+    width: 1200px;
+    justify-content: space-around;
+    margin: 10px 50px 10px 50px;
+}
+
+.item{
+	color:#E4F216;
+	margin: 5% 15% 5% 15%;
+}
+
+.dev{
+	color:#E4F216;
+	font-size: 12px;
+	list-style-type: none;
+	padding: 10px 20px 0px 20px;
+	overflow: hidden;
+	background-color: #A32DE0;
+	position: absolute;
+	bottom:550px;
+	right: 0px;
+	width: 25%;	
+}

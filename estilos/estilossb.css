@@ -1,0 +1,193 @@
+body{
+	background-color:#B47EE0
+}
+
+.body{
+	margin-top:5%;
+	margin-bottom: 5%;
+	font-family:'rockwell';
+}
+
+h1{
+	text-align:center;
+	font-size: 50px;
+	font-family:'rockwell';
+}
+
+h2, h3{
+	margin-left: 10%;
+	text-align: left;
+	font-family:'rockwell';
+}
+
+p{
+	text-align: justify-all;
+}
+
+a{
+	padding: 8px;
+}
+
+a:link {
+	color: #E4F216;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:visited {
+	color: #C6D3F5;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover {
+	background-color: #A32DE0;
+	color: red;
+	text-decoration: underline; 
+	cursor: pointer;
+}
+
+a:active {
+	color: #C6D3F5;
+	text-decoration: underline; 
+}
+
+.titulo{
+	text-align: center;
+	font-size: 20px;
+	color: #E4F216;
+}
+
+.opcoes{
+    display: flex;
+    width: 1100px;
+    justify-content: space-around;
+    margin: 5% 5% 10% 17%;
+
+}
+
+.card{
+	height: 300px;
+    width: 300px;
+    margin: 0px 220px 10px 0px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0% 25% 0% 0%;
+	padding: 0% 60% 0% 40%;
+	overflow: hidden;
+	background-color: #A32DE0;
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+}
+
+
+.plan{
+	margin: 10px 50px 10px 70px;
+	padding: 0px 10px 400px 150px;
+}
+
+.cardes{
+	max-width:250px;
+	max-height: 250px;
+
+
+	float: left;
+
+	margin: 40px 0px 50px 7px;
+	padding: 30px 60px 70px 25px;
+}
+
+.cardes img {
+    max-width:250px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+}
+
+.botao{
+	text-align: center;
+}
+
+.botoes{
+	margin: 5px 0px 5px 30px;
+	padding: 10px 10px 5px 30px;
+	display: flex;
+    width: 1200px;
+    justify-content: space-around;
+}
+
+.botv{
+	font-size: 15px;
+	font-style: italic;
+	color: #0000;
+	width: 150px;
+	height: 60px;
+	background-color: #A32DE0;
+	padding: 10px 10px 10px 10px;
+	border: 1;
+
+}
+
+.nome{
+	color:#615E30;
+	text-align: center;
+	padding: 5px 0px 10px 0px;
+}
+
+.imagem{
+	margin: 2% 40% 5% 37%;
+}
+
+.imagem img{
+    max-width:300px;
+    max-height:400px;  
+    width: auto;
+    height: auto;
+ }
+
+.infor{
+	color: #615E30;
+	text-align: center;
+	margin: 5% 25% 5% 19%;
+}
+
+p.just{
+	text-align: justify;
+}
+
+.dev{
+	color:#E4F216;
+	font-size: 12px;
+	list-style-type: none;
+	padding: 5px 20px 5px 20px;
+	overflow: hidden;
+	background-color: #A32DE0;
+	position: absolute;
+	bottom:550px;
+	right: 0px;
+	width: 20%;	
+}
+
+table{
+	border-color: black; 
+	border-style: solid;
+	border-top-style: dotted;
+	width: 800px;
+	height: 500px;
+}
+
+th.ajuda{
+	color: red;
+}
+
+img.bord{
+	border="3";
+	border-style: solid;
+	border-color: #E4F216;
+	padding: 10px 10px 10px 10px;
+}
+
